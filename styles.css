@@ -53,8 +53,14 @@ table {
 
 /* mobile first*/
 @media only screen and (min-width: 320px) {
-    html {
-        margin: 0 auto;
+    body {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    p, q, h4 {
+        font-family: Montserrat;
+        font-size: 20px;
     }
     
     nav {
@@ -88,9 +94,56 @@ table {
         background: linear-gradient(to bottom, #55BCD5, #FFFFFF);
     }
 
-    header h1, h2 {
-        font-family: Molle;
-        font-size: 16px;
+    #intro img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
     }
+
+    header h1, h2, h3 {
+        font-family: Molle;
+        font-size: 35px;
+    }
+
+    #plan {
+        background-color: #F6D64A;
+        text-align: center;
+    }
+
+    #plan div {
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+    }
+
+    #plan section {
+        background-color: #55BCD5;
+        border-radius: 5px;
+        padding: 20px;
+        border-style: solid;
+        border-width: 5px;
+        border-color: #FFFFFF;
+    }
+
+    #plan h4 {
+        text-align: center;
+        font-weight: bold;
+        font-size: 25px;
+        padding: 5px;
+        font-family: Montserrat;
+    }
+
+    #testimonials h4 {
+        font-weight: bold;
+        font-size: 25px;
+    }
+
+    #testimonials {
+        text-align: center;
+    }
+
 
 }
