@@ -99,6 +99,7 @@ table {
         margin-left: auto;
         margin-right: auto;
         width: 100%;
+        margin-bottom: 20px;
     }
 
     header h1, h2, h3 {
@@ -145,5 +146,35 @@ table {
         text-align: center;
     }
 
+    #about {
+        background-color: #499BD2;
+        display: grid;
+    }
 
+    #contact {
+        font-family: Monserrat;
+        padding-bottom: 10px;
+    }
+
+    #contact label {
+    }
+
+    #contact input[type=text] {
+        display: block;
+        border-style: solid;
+        border-width: 5px;
+        border-color: #9B26B0;
+    }
+
+    footer {
+        background-color: #EAEAEA;
+    }
+}
+
+@media only screen and (min-width: 500px){
+
+}
+
+@media only screen and (min-width: 800px) {
+    
 }
